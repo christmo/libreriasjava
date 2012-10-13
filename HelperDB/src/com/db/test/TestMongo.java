@@ -18,6 +18,7 @@ public class TestMongo {
 	 */
 	public static void main(String[] args) {
 		MySQLObject m = new MySQLObject();
+		/*
 		try {
 			ResultSet r = m.doSelect("Select user from user");
 			while(r.next()){
@@ -33,6 +34,8 @@ public class TestMongo {
 		}
 		// TODO Auto-generated method stub
 		DbHelper dataLayer;
+		
+		
 		/*try {
 			dataLayer = new DbHelper(DataBases.MySQL);
 			dataLayer.getBd().openConnection();
@@ -63,6 +66,8 @@ public class TestMongo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}*/
+		
+		
 		
 		/*try {
 			Mongo m = new Mongo("localhost", 27017);
